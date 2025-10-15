@@ -3,16 +3,6 @@
 
 
 
-## Kurulum
-git clone https://gitlab.com/yozdag/gitlab-analytics-backend.git
-
-git checkout withchatbot
-
-python -m venv venv
-
-venv\Scripts\activate
-
-pip install -r requirements.txt
 
 
 
