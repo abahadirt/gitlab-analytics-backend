@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env
+
+# media klasörü repo'da dursun ama içeriği hariç
+media/*
+!media/.gitkeep
+
+# Environment variable files
+.env
+*.env
+
+# VS Code ayarları
+.vscode/
+
+# PyCharm ayarları
+.idea/
+
+# Jupyter Notebook checkpoint'leri
+.ipynb_checkpoints/
+
+# Test çıktıları
+htmlcov/
+coverage.xml
+*.cover
+.cache
+
+# Log ve debug dosyaları
+*.log
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# macOS / Windows sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Pycharm refactoring cache
+.idea/
+
+# mypy / pyright / pytest / etc.
+.mypy_cache/
+.pytest_cache/
+.dmypy.json
+.pyre/
